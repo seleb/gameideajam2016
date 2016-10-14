@@ -34,22 +34,28 @@ $(document).ready(function(){
 	renderer = PIXI.autoDetectRenderer(
 		size[0],size[1],
 		{
-			antiAlias:false,
+			antiAlias:true,
 			transparent:false,
 			resolution:1,
-			roundPixels:true,
+			roundPixels:false,
 			clearBeforeRender:true,
 			autoResize:false
 		}
 	);
-	renderer.backgroundColor = 0x000000;
+	renderer.backgroundColor = 0xFFFFFF;
 
 	PIXI.SCALE_MODES.DEFAULT = PIXI.SCALE_MODES.NEAREST;
-	PIXI.WRAP_MODES.DEFAULT = PIXI.WRAP_MODES.MIRRORED_REPEAT;
 
 	// add the canvas to the html document
 	$("#display").prepend(renderer.view);
 
+
+	sounds["bloop"]=new Howl({
+		urls:["assets/audio/bloop.ogg"],
+		autoplay:false,
+		loop:false,
+		volume:1
+	});
 
 
 	// create a new render texture..
@@ -60,7 +66,8 @@ $(document).ready(function(){
 	renderSprite = new PIXI.Sprite(renderTexture, new PIXI.Rectangle(0,0,size[0],size[1]));
 	game.addChild(renderSprite);
 	
-	fontStyle={font: "8px sans-serif", align: "left"};
+	fontStyle1={fontFamily: "font", fontSize: 32, align: "center", fill:0xFFFFFF};
+	fontStyle2={fontFamily: "font", fontSize: 16, align: "center", fill:0xFFFFFF, wordWrap:true, wordWrapWidth:100};
 
 	CustomFilter.prototype = Object.create(PIXI.Filter.prototype);
 	CustomFilter.prototype.constructor = CustomFilter;
@@ -103,45 +110,22 @@ function onResize() {
 function _resize(){
 	var w=$("#display").innerWidth();
 	var h=$("#display").innerHeight();
-	var ratio=size[0]/size[1];
+	renderer.view.style.width=w+"px";
+	renderer.view.style.height=h+"px";
 
-	
-	if(w/h < ratio){
-		h = Math.round(w/ratio);
-	}else{
-		w = Math.round(h*ratio);
-	}
-	
+	w/=2;
+	h/=2;
+	renderer.resize(w,h);
+	renderTexture.baseTexture.resize(w,h);
+	console.log("Resized",size,w,h);
 
-	var aw,ah;
+	size[0]=w;
+	size[1]=h;
 
-	if(scaleMode==0){
-		// largest multiple
-		aw=size[0];
-		ah=size[1];
-
-
-		while(aw <= w || ah <= h){
-			aw+=size[0];
-			ah+=size[1];
-		}
-
-		aw-=size[0];
-		ah-=size[1];
-	}else if(scaleMode==1){
-		// fit
-		aw=w;
-		ah=h;
-	}else{
-		// original
-		aw=size[0];
-		ah=size[1];
-	}
-
-	renderer.view.style.width=aw+"px";
-	renderer.view.style.height=ah+"px";
-
-	console.log("Resized",size,aw,ah);
+	bg.clear();
+	bg.beginFill(0xFFFFFF);
+	bg.drawRect(0,0,size[0],size[1]);
+	bg.endFill();
 }
 
 PIXI.zero=new PIXI.Point(0,0);

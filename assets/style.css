@@ -1,4 +1,10 @@
+@font-face{
+	font-family: 'font';
+	src: url('DaysOne-Regular.ttf');
+}
+
 *{
+	font-family:'font';
 }
 
 html,body,#display{

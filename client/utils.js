@@ -9,7 +9,6 @@ function clamp(min,v,max){
 	return Math.max(min,Math.min(v,max));
 }
 
-
 // fullscreen toggle from https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API#Toggling_fullscreen_mode
 function isFullscreen(){
 	return !(!document.fullscreenElement&& !document.mozFullScreenElement&& !document.webkitFullscreenElement&& !document.msFullscreenElement);
@@ -39,8 +38,9 @@ function toggleFullscreen(){
 }
 
 function ease(t) {
-	if ((t/=0.5) < 1) {
-		return 0.5*t*t*t;
-	}
-	return 0.5*((t-=2)*t*t + 2);
+	var s=1.70158;var p=0;var a=1;
+	if (t==0) return 0;  if ((t/=1)==1) return 1;  if (!p) p=.3;
+	if (a < Math.abs(1)) { a=1; var s=p/4; }
+	else var s = p/(2*Math.PI) * Math.asin (1/a);
+	return a*Math.pow(2,-10*t) * Math.sin( (t-s)*(2*Math.PI)/p ) + 1;
 };

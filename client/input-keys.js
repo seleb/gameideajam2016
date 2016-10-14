@@ -19,6 +19,7 @@ var keys={
 
 	M:77,
 	P:80,
+	F:70,
 
 	SPACE: 32,
 	ENTER: 13,
