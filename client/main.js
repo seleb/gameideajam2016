@@ -193,528 +193,35 @@ function init(){
 	];
 
 
-	recording=[  
-	    {  
-	        "text":"hey there!",
-	        "time":1985
-	    },
-	    {  
-	        "text":"welcome to the game",
-	        "time":1436
-	    },
-	    {  
-	        "text":"this is your first time playing",
-	        "time":2439
-	    },
-	    {  
-	        "text":"yeah?",
-	        "time":752
-	    },
-	    {  
-	        "text":"well",
-	        "time":2355
-	    },
-	    {  
-	        "text":"don't worry",
-	        "time":585
-	    },
-	    {  
-	        "text":"it's pretty simple",
-	        "time":1520
-	    },
-	    {  
-	        "text":"i mean...",
-	        "time":1604
-	    },
-	    {  
-	        "text":"it's right in the title",
-	        "time":684
-	    },
-	    {  
-	        "text":"you know?",
-	        "time":1989
-	    },
-	    {  
-	        "text":"press the button to win!",
-	        "time":1170
-	    },
-	    {  
-	        "text":"...",
-	        "time":3357
-	    },
-	    {  
-	        "text":"...",
-	        "time":2138
-	    },
-	    {  
-	        "text":"oh!",
-	        "time":3425
-	    },
-	    {  
-	        "text":"you're probably wondering...",
-	        "time":401
-	    },
-	    {  
-	        "text":"\"which button???\"",
-	        "time":1870
-	    },
-	    {  
-	        "text":"right?",
-	        "time":1370
-	    },
-	    {  
-	        "text":"ha",
-	        "time":1604
-	    },
-	    {  
-	        "text":"ha",
-	        "time":150
-	    },
-	    {  
-	        "text":"ha",
-	        "time":384
-	    },
-	    {  
-	        "text":"ha",
-	        "time":152
-	    },
-	    {  
-	        "text":"ha",
-	        "time":366
-	    },
-	    {  
-	        "text":"ha",
-	        "time":167
-	    },
-	    {  
-	        "text":"no worries",
-	        "time":601
-	    },
-	    {  
-	        "text":"let's see...",
-	        "time":1973
-	    },
-	    {  
-	        "text":"which button was it again?",
-	        "time":985
-	    },
-	    {  
-	        "text":"...",
-	        "time":1971
-	    },
-	    {  
-	        "text":"...",
-	        "time":1187
-	    },
-	    {  
-	        "text":"hmm...",
-	        "time":1202
-	    },
-	    {  
-	        "text":"...",
-	        "time":518
-	    },
-	    {  
-	        "text":"just a sec...",
-	        "time":2188
-	    },
-	    {  
-	        "text":"...",
-	        "time":450
-	    },
-	    {  
-	        "text":"ah",
-	        "time":2708
-	    },
-	    {  
-	        "text":"here it is",
-	        "time":651
-	    },
-	    {  
-	        "text":"X",
-	        "time":2121
-	    },
-	    {  
-	        "text":"you got that?",
-	        "time":1455
-	    },
-	    {  
-	        "text":"so all you need to do",
-	        "time":2872
-	    },
-	    {  
-	        "text":"is press the X button",
-	        "time":1236
-	    },
-	    {  
-	        "text":"and then you win!",
-	        "time":3224
-	    },
-	    {  
-	        "text":"easy as pie.",
-	        "time":2874
-	    },
-	    {  
-	        "text":"in fact",
-	        "time":2589
-	    },
-	    {  
-	        "text":"it's easier than pie",
-	        "time":619
-	    },
-	    {  
-	        "text":"you gotta like",
-	        "time":1903
-	    },
-	    {  
-	        "text":"cut",
-	        "time":1120
-	    },
-	    {  
-	        "text":"bite",
-	        "time":584
-	    },
-	    {  
-	        "text":"chew",
-	        "time":719
-	    },
-	    {  
-	        "text":"swallow",
-	        "time":501
-	    },
-	    {  
-	        "text":"when you're eating pie",
-	        "time":685
-	    },
-	    {  
-	        "text":"this is just a button press",
-	        "time":2189
-	    },
-	    {  
-	        "text":"...",
-	        "time":3106
-	    },
-	    {  
-	        "text":"...",
-	        "time":3307
-	    },
-	    {  
-	        "text":"are you using a gamepad?",
-	        "time":2790
-	    },
-	    {  
-	        "text":"like an xbox controller",
-	        "time":1971
-	    },
-	    {  
-	        "text":"or dualshock",
-	        "time":1337
-	    },
-	    {  
-	        "text":"or whatever?",
-	        "time":535
-	    },
-	    {  
-	        "text":"cause that won't work",
-	        "time":2772
-	    },
-	    {  
-	        "text":"i know they've got X buttons",
-	        "time":2624
-	    },
-	    {  
-	        "text":"but i figured",
-	        "time":1235
-	    },
-	    {  
-	        "text":"\"it's a short game\"",
-	        "time":1754
-	    },
-	    {  
-	        "text":"\"single button interaction\"",
-	        "time":1487
-	    },
-	    {  
-	        "text":"\"who's gonna bother with a gamepad\"",
-	        "time":1905
-	    },
-	    {  
-	        "text":"not me!",
-	        "time":2421
-	    },
-	    {  
-	        "text":"so i didn't bother with the gamepad code",
-	        "time":2606
-	    },
-	    {  
-	        "text":"sorry if that was the issue",
-	        "time":1804
-	    },
-	    {  
-	        "text":"go ahead and give it another shot",
-	        "time":2456
-	    },
-	    {  
-	        "text":"just use the keyboard this time",
-	        "time":1838
-	    },
-	    {  
-	        "text":"...",
-	        "time":2004
-	    },
-	    {  
-	        "text":"...",
-	        "time":2004
-	    },
-	    {  
-	        "text":"so",
-	        "time":2924
-	    },
-	    {  
-	        "text":"yeah",
-	        "time":1954
-	    },
-	    {  
-	        "text":"X button",
-	        "time":1955
-	    },
-	    {  
-	        "text":"should be in the lower left of your keyboard",
-	        "time":2840
-	    },
-	    {  
-	        "text":"you're on a QWERTY keyboard",
-	        "time":4243
-	    },
-	    {  
-	        "text":"right?",
-	        "time":1303
-	    },
-	    {  
-	        "text":"i guess some people have AZERTY",
-	        "time":4243
-	    },
-	    {  
-	        "text":"where's the X on AZERTY?",
-	        "time":1720
-	    },
-	    {  
-	        "text":"...",
-	        "time":2706
-	    },
-	    {  
-	        "text":"oh it's the same spot",
-	        "time":1404
-	    },
-	    {  
-	        "text":"lower left",
-	        "time":1955
-	    },
-	    {  
-	        "text":"...",
-	        "time":3406
-	    },
-	    {  
-	        "text":"oh DVORAK!",
-	        "time":5446
-	    },
-	    {  
-	        "text":"DVORAK is a thing",
-	        "time":518
-	    },
-	    {  
-	        "text":"right?",
-	        "time":2472
-	    },
-	    {  
-	        "text":"maybe you're on DVORAK",
-	        "time":1421
-	    },
-	    {  
-	        "text":"looks like it's more of a middle key",
-	        "time":5245
-	    },
-	    {  
-	        "text":"on DVORAK, that is",
-	        "time":1170
-	    },
-	    {  
-	        "text":"still on the bottom row though",
-	        "time":2539
-	    },
-	    {  
-	        "text":"...",
-	        "time":5096
-	    },
-	    {  
-	        "text":"...",
-	        "time":2404
-	    },
-	    {  
-	        "text":"...",
-	        "time":2623
-	    },
-	    {  
-	        "text":"ok",
-	        "time":3491
-	    },
-	    {  
-	        "text":"so",
-	        "time":434
-	    },
-	    {  
-	        "text":"confession:",
-	        "time":1003
-	    },
-	    {  
-	        "text":"i'm really only checking the X button",
-	        "time":2405
-	    },
-	    {  
-	        "text":"maybe you've hit others",
-	        "time":2306
-	    },
-	    {  
-	        "text":"maybe not",
-	        "time":1336
-	    },
-	    {  
-	        "text":"but either way",
-	        "time":970
-	    },
-	    {  
-	        "text":"you didn't hit the X",
-	        "time":750
-	    },
-	    {  
-	        "text":"i'm like",
-	        "time":2658
-	    },
-	    {  
-	        "text":"99% sure of that",
-	        "time":500
-	    },
-	    {  
-	        "text":"and that's like",
-	        "time":2824
-	    },
-	    {  
-	        "text":"the only thing you need to do",
-	        "time":985
-	    },
-	    {  
-	        "text":"i mean",
-	        "time":2673
-	    },
-	    {  
-	        "text":"it's the only thing i've even told you to do",
-	        "time":585
-	    },
-	    {  
-	        "text":"so",
-	        "time":3457
-	    },
-	    {  
-	        "text":"can you just go ahead",
-	        "time":1420
-	    },
-	    {  
-	        "text":"and do that",
-	        "time":1086
-	    },
-	    {  
-	        "text":"hit the X button",
-	        "time":2573
-	    },
-	    {  
-	        "text":"for me?",
-	        "time":3709
-	    },
-	    {  
-	        "text":":)",
-	        "time":868
-	    },
-	    {  
-	        "text":"...",
-	        "time":6799
-	    },
-	    {  
-	        "text":":(",
-	        "time":3992
-	    },
-	    {  
-	        "text":"really?",
-	        "time":936
-	    },
-	    {  
-	        "text":"i don't even",
-	        "time":2656
-	    },
-	    {  
-	        "text":"i don't even know what to say at this point",
-	        "time":601
-	    },
-	    {  
-	        "text":"actually",
-	        "time":3241
-	    },
-	    {  
-	        "text":"you know what?",
-	        "time":451
-	    },
-	    {  
-	        "text":"last chance",
-	        "time":1520
-	    },
-	    {  
-	        "text":"hit the X button now",
-	        "time":1504
-	    },
-	    {  
-	        "text":"5",
-	        "time":2572
-	    },
-	    {  
-	        "text":"4",
-	        "time":1336
-	    },
-	    {  
-	        "text":"3",
-	        "time":1387
-	    },
-	    {  
-	        "text":"2",
-	        "time":1704
-	    },
-	    {  
-	        "text":"1",
-	        "time":2171
-	    },
-	    {  
-	        "text":"0",
-	        "time":4745
-	    },
-	    {  
-	        "text":"oh come on",
-	        "time":718
-	    },
-	    {  
-	        "text":"screw it",
-	        "time":3592
-	    },
-	    {  
-	        "text":"game over",
-	        "time":517
-	    },
-	    {  
-	        "text":"bye bye",
-	        "time":618
-	    },
-	    {  
-	        "text":"you lose",
-	        "time":569
-	    }
-	];
+	recordings={
+		intro:{
+			messages:[{"text":"hey there!","time":1985},{"text":"welcome to the game","time":1436},{"text":"this is your first time playing","time":2439},{"text":"yeah?","time":752},{"text":"well","time":2355},{"text":"don't worry","time":585},{"text":"it's pretty simple","time":1520},{"text":"i mean...","time":1604},{"text":"it's right in the title","time":684},{"text":"you know?","time":1989},{"text":"press the button to win!","time":1170},{"text":"...","time":3357},{"text":"...","time":2138},{"text":"oh!","time":3425},{"text":"you're probably wondering...","time":401},{"text":"\"which button???\"","time":1870},{"text":"right?","time":1370},{"text":"ha","time":1604},{"text":"ha","time":150},{"text":"ha","time":384},{"text":"ha","time":152},{"text":"ha","time":366},{"text":"ha","time":167},{"text":"no worries","time":601},{"text":"let's see...","time":1973},{"text":"which button was it again?","time":985},{"text":"...","time":1971},{"text":"...","time":1187},{"text":"hmm...","time":1202},{"text":"...","time":518},{"text":"just a sec...","time":2188},{"text":"...","time":450},{"text":"ah","time":2708},{"text":"here it is","time":651},{"text":"X","time":2121},{"text":"you got that?","time":1455},{"text":"so all you need to do","time":2872},{"text":"is press the X button","time":1236},{"text":"and then you win!","time":3224},{"text":"easy as pie.","time":2874},{"text":"in fact","time":2589},{"text":"it's easier than pie","time":619},{"text":"you gotta like","time":1903},{"text":"cut","time":1120},{"text":"bite","time":584},{"text":"chew","time":719},{"text":"swallow","time":501},{"text":"when you're eating pie","time":685},{"text":"this is just a button press","time":2189},{"text":"...","time":3106},{"text":"...","time":3307},{"text":"are you using a gamepad?","time":2790},{"text":"like an xbox controller","time":1971},{"text":"or dualshock","time":1337},{"text":"or whatever?","time":535},{"text":"cause that won't work","time":2772},{"text":"i know they've got X buttons","time":2624},{"text":"but i figured","time":1235},{"text":"\"it's a short game\"","time":1754},{"text":"\"single button interaction\"","time":1487},{"text":"\"who's gonna bother with a gamepad\"","time":1905},{"text":"not me!","time":2421},{"text":"so i didn't bother with the gamepad code","time":2606},{"text":"sorry if that was the issue","time":1804},{"text":"go ahead and give it another shot","time":2456},{"text":"just use the keyboard this time","time":1838},{"text":"...","time":2004},{"text":"...","time":2004},{"text":"so","time":2924},{"text":"yeah","time":1954},{"text":"X button","time":1955},{"text":"should be in the lower left of your keyboard","time":2840},{"text":"you're on a QWERTY keyboard","time":4243},{"text":"right?","time":1303},{"text":"i guess some people have AZERTY","time":4243},{"text":"where's the X on AZERTY?","time":1720},{"text":"...","time":2706},{"text":"oh it's the same spot","time":1404},{"text":"lower left","time":1955},{"text":"...","time":3406},{"text":"oh DVORAK!","time":5446},{"text":"DVORAK is a thing","time":518},{"text":"right?","time":2472},{"text":"maybe you're on DVORAK","time":1421},{"text":"looks like it's more of a middle key","time":5245},{"text":"on DVORAK, that is","time":1170},{"text":"still on the bottom row though","time":2539},{"text":"...","time":5096},{"text":"...","time":2404},{"text":"...","time":2623},{"text":"ok","time":3491},{"text":"so","time":434},{"text":"confession:","time":1003},{"text":"i'm really only checking the X button","time":2405},{"text":"maybe you've hit others","time":2306},{"text":"maybe not","time":1336},{"text":"but either way","time":970},{"text":"you didn't hit the X","time":750},{"text":"i'm like","time":2658},{"text":"99% sure of that","time":500},{"text":"and that's like","time":2824},{"text":"the only thing you need to do","time":985},{"text":"i mean","time":2673},{"text":"it's the only thing i've even told you to do","time":585},{"text":"so","time":3457},{"text":"can you just go ahead","time":1420},{"text":"and do that","time":1086},{"text":"hit the X button","time":2573},{"text":"for me?","time":3709},{"text":":)","time":868},{"text":"...","time":6799},{"text":":(","time":3992},{"text":"really?","time":936},{"text":"i don't even","time":2656},{"text":"i don't even know what to say at this point","time":601},{"text":"actually","time":3241},{"text":"you know what?","time":451},{"text":"last chance","time":1520},{"text":"hit the X button now","time":1504},{"text":"5","time":2572},{"text":"4","time":1336},{"text":"3","time":1387},{"text":"2","time":1704},{"text":"1","time":2171},{"text":"0","time":4745},{"text":"oh come on","time":718}],
+			press:function(){
+				console.log("button pressed");
+				recordings.goTo("ending-wait");
+			},
+			complete:function(){
+				recordings.goTo("ending-wait");
+			}
+		},
+
+		"ending-wait":{
+			messages:[{"text":"screw it","time":3592},{"text":"game over","time":517},{"text":"bye bye","time":618},{"text":"you lose","time":569}],
+			press:function(){
+
+			},
+			complete:function(){
+				recordings.current=null;
+			}
+		},
+
+		current:"intro",
+		goTo:function(s){
+			recordings.current=s;
+		}
+	};
+
+
 
 
 	record=false;
@@ -843,13 +350,22 @@ function update(){
 			console.log(JSON.stringify(recording));
 		}
 	}else{
-		if(recording.length > 0){
-			var r=recording[0];
+		if(recordings.current){
+			var r=recordings[recordings.current].messages[0];
 
 			if(curTime-recordTime > r.time){
 				nextMessage();
-				recording.shift();
+				recordings[recordings.current].messages.shift();
 				recordTime=recordTime+r.time;
+
+				if(recordings[recordings.current].messages.length == 0){
+					recordings[recordings.current].complete();
+				}
+			}
+
+
+			if(keys.isJustDown(keys.X)){
+				recordings[recordings.current].press();
 			}
 		}
 	}
@@ -909,7 +425,7 @@ function nextMessage(){
 
 	t = actualText[actualTextOffset];
 
-	t.text.text = record ? actualTextLines[recordingOffset] : recording[0].text;
+	t.text.text = record ? actualTextLines[recordingOffset] : recordings[recordings.current].messages[0].text;
 	t.r=Math.max(t.text.width,t.text.height)/2+15;
 	t.clear();
 	t.beginFill(0);
