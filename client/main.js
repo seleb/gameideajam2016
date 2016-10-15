@@ -61,7 +61,9 @@ function init(){
 	"seriously"
 	];
 
-	actualTextLines=[];
+	actualTextLines=[
+	"push the button to win!"
+	];
 	/*
 
 	];
