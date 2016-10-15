@@ -8,6 +8,9 @@ try{
 }catch(e){
 	document.body.innerHTML="<p>Unsupported Browser. Sorry :(</p>";
 }
+if(!PIXI.utils.isWebGLSupported()){
+	document.body.innerHTML="<p>Unsupported Browser. Sorry :(</p>";
+}
 var resizeTimeout=null;
 
 var mouse={
