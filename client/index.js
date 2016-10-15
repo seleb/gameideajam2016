@@ -66,7 +66,7 @@ $(document).ready(function(){
 	renderSprite = new PIXI.Sprite(renderTexture, new PIXI.Rectangle(0,0,size[0],size[1]));
 	game.addChild(renderSprite);
 	
-	fontStyle1={fontFamily: "font", fontSize: 32, align: "center", fill:0xFFFFFF};
+	fontStyle1={fontFamily: "font", fontSize: 32, align: "center", fill:0xFFFFFF, strokeThickness:0, stroke:0x000000};
 	fontStyle2={fontFamily: "font", fontSize: 16, align: "center", fill:0xFFFFFF, wordWrap:true, wordWrapWidth:100};
 
 	CustomFilter.prototype = Object.create(PIXI.Filter.prototype);
